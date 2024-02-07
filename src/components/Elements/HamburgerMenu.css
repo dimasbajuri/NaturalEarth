@@ -1,0 +1,15 @@
+/* ./src/components/Elements/HamburgerMenu.css */
+
+button > span {
+    @apply transition-all duration-300;
+}
+
+.nav-button-active > span:nth-child(1) {
+    @apply rotate-45;
+}
+.nav-button-active > span:nth-child(2) {
+    @apply scale-0
+}
+.nav-button-active > span:nth-child(3) {
+    @apply -rotate-45
+}
